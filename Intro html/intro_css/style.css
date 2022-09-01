@@ -1,0 +1,16 @@
+/*Selector por etiqueta de HTML*/
+h1{
+    color:  red;
+}
+/*Selector por clase*/
+/*Class es en html y . es en css*/
+.titulo{
+    color:  green;
+}
+.tamaño_texto{
+    font-size: 10px;
+}
+/*Selector por  es con #*/
+#descripcion{
+    color:  violet;
+}

@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+}
+.abuelo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.padre1,.padre2,.padre3,.padre4{
+    margin: 1%;
+    border: 2px;
+    height: 60vh;
+    width: auto;
+    display: flex;
+}
+.padre2,.padre3,.padre4{
+    width: 30vw;
+}
+.padre1{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: solid blue;
+    padding: 0.1%;
+}
+.cubo{
+    margin: 0;
+    border: 2px solid green;
+    width: 25%;
+    height: 25%;
+}
+.padre1 > .cubo{
+    width: 25%;
+    height: 80%;
+}
+.padre2{
+    flex-direction: column;
+    border: solid red;
+    justify-content: space-around;
+    align-items: center;
+}
+.padre3{
+    border: solid pink;
+    justify-content: space-around;
+    align-items: center;
+}
+.padre4{
+    border: solid black;
+    justify-content: center;
+    align-items: center;
+}

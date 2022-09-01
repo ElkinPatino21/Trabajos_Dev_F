@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form name="formulario" action="" method="POST">
+        <input type="text" name="nombre" placeholder="Ingrese su nombre" minlength="2" maxlength="20" size="30" required>
+        <br>
+        <br>
+        <input type="password" name="contraseña" placeholder="Ingrese su contraseña" size="30" minlength="1" required>
+        <br>
+        <br>
+        <input type="number" name="numero" placeholder="Ingresa un numero" size="30" min="-2" max="40" >
+        <br>
+        <br>
+        <label for="Condicion_1">Si o no</label>
+        <input id="Condicion_1" type="checkbox">
+        <br>
+        <br>
+        <p>Rango de edad</p>
+        <label for="edad">0 - 30</label>
+        <input name="edad" value="0-30" type="radio">
+        <br>
+        <label for="edad">31 - 40</label>
+        <input name="edad" value="31-40" type="radio">
+        <br>
+        <label for="edad">41 - 50</label>
+        <input name="edad" value="41-50" type="radio">
+        <br>
+        <br>
+        <label for="hora">Ingrese su hora favorita </label>
+        <input name="hora" type="time" min="09:00" max="18:00">
+        <br>
+        <br>
+        <label for="fecha">Ingrese su fecha favorita </label>
+        <input name="fecha" type="date">
+        <br>
+        <br>
+        <label for="sex">Selecciona tu sexo </label>
+        <select name="genero" id="sex">
+            <option value="Hobre">Hombre</option>
+            <option value="Mujer">Mujer</option>
+            <option value="Otro">Otro</option>
+        </select>
+        <br>
+        <br>
+        <textarea name="Observacion" cols="30" rows="10" placeholder="Ingresa una observacion"></textarea>
+        <br>
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

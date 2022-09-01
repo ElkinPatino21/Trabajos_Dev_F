@@ -1,0 +1,38 @@
+
+*{
+    margin-left: 20px;
+}
+
+div, select{
+    padding: 5px;
+}
+input{
+    text-align:justify;
+}
+.titulo{
+    text-align: center;
+    color: rgba( 105, 100, 256, 1);
+}
+.btn_enviar{
+    background-color: violet;
+}
+.fut{
+    color: red;
+}
+/*Selector de herencia general (Los que van dentro del div en dados casos, o dentro de los contenedores)*/
+.padre2{
+    color: aqua;
+}
+/* Selector de hermanos (que comparten mismo nivel y clase)*/
+h5 ~ h6 {
+    color:  blue;
+}
+/* Selector de hermanos, cuando uno de los hermanos tiene un hijo tambien se le aplica (que comparten mismo nivel y clase)*/
+h5 ~ .hermano-4 {
+    color:  blue;
+}
+
+/* selector adyacente (que este al lado, normalmente abajo, solo se aplica al segundo item, por mas que los dos siguientes tengan la misma clase solo se lo aplica a 1, al que esta al lado)*/
+.adyavente + .adyacente-2{
+    color: blue;
+}

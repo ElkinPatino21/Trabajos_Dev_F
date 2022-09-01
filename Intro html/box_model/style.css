@@ -1,0 +1,13 @@
+/*Modificando el box del div class padre*/
+.padre{
+    background-color: aqua;
+    padding: 10px;
+    border: 3px solid red;
+    margin: 60px;
+}
+.madre{
+    background-color: bisque;
+    padding: 40px;
+    border: 2px solid black;
+    margin: 40px;
+}
